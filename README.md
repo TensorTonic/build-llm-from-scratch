@@ -149,6 +149,8 @@ After a tiny GPT, these are the directions a production model takes after pretra
 
 The [Language Modeling from Scratch](https://www.tensortonic.com/study-plans/language-modeling-from-scratch) study plan continues into scaling laws, distributed training, inference systems and alignment, and the [LLM Internals](https://www.tensortonic.com/llm-internals) pages explain the techniques used in production models.
 
+To study the architecture on its own, the [Implement a Transformer from Scratch](https://www.tensortonic.com/guides/implement-a-transformer-from-scratch) guide explains how to build the original Transformer layer by layer, and the [How to Fine-Tune an LLM](https://www.tensortonic.com/guides/how-to-fine-tune-an-llm) guide explains how to adapt a pretrained model to a new task.
+
 ## License
 
 MIT
