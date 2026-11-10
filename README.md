@@ -134,7 +134,20 @@ A trained model outputs a probability for every token in the vocabulary, and the
 
 ## What's next
 
-Once each component passes its tests, the [Build a Tiny GPT from Scratch](https://www.tensortonic.com/projects/tiny-gpt-from-scratch) project puts them together into one model that you train end to end. The [Language Modeling from Scratch](https://www.tensortonic.com/study-plans/language-modeling-from-scratch) study plan continues into scaling laws, distributed training, inference systems and alignment, and the [LLM Internals](https://www.tensortonic.com/llm-internals) pages explain the techniques used in production models.
+Once each component passes its tests, the [Build a Tiny GPT from Scratch](https://www.tensortonic.com/projects/tiny-gpt-from-scratch) project puts them together into one model that you train end to end. The guide [How to Build an LLM from Scratch](https://www.tensortonic.com/guides/build-an-llm-from-scratch) walks through the same six stages in prose, with the checks to run when you join the pieces and the mistakes to avoid.
+
+After a tiny GPT, these are the directions a production model takes after pretraining. Each row has an explanation and something to build.
+
+| Direction | Read | Build |
+| --- | --- | --- |
+| Scale the same model up | [FlashAttention](https://www.tensortonic.com/llm-internals/flash-attention) | [Language Modeling from Scratch](https://www.tensortonic.com/study-plans/language-modeling-from-scratch) |
+| Fine-tune a pretrained model | [LoRA](https://www.tensortonic.com/llm-internals/lora), [QLoRA](https://www.tensortonic.com/llm-internals/qlora) | [Fine-Tune an LLM](https://www.tensortonic.com/projects/llm-finetuning) |
+| Align a model with preferences | [RLHF](https://www.tensortonic.com/llm-internals/rlhf), [DPO](https://www.tensortonic.com/llm-internals/dpo) | [DPO from Scratch](https://www.tensortonic.com/projects/dpo-from-scratch) |
+| Serve a model quickly | [KV cache](https://www.tensortonic.com/llm-internals/kv-cache), [PagedAttention](https://www.tensortonic.com/llm-internals/paged-attention) | [Build an LLM Inference Server](https://www.tensortonic.com/projects/llm-inference) |
+| Shrink a model | [Quantization](https://www.tensortonic.com/llm-internals/quantization) | [Quantize a Language Model to 4 Bits](https://www.tensortonic.com/projects/quantization-from-scratch) |
+| Ground a model in documents | [RAG](https://www.tensortonic.com/llm-internals/rag) | [RAG from Scratch](https://www.tensortonic.com/projects/rag-from-scratch) |
+
+The [Language Modeling from Scratch](https://www.tensortonic.com/study-plans/language-modeling-from-scratch) study plan continues into scaling laws, distributed training, inference systems and alignment, and the [LLM Internals](https://www.tensortonic.com/llm-internals) pages explain the techniques used in production models.
 
 ## License
 
